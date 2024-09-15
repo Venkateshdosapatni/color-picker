@@ -1,0 +1,57 @@
+*{
+    background-color:rgb(246, 239, 229);
+}
+.parent{
+    background-color:rgb(246, 239, 229);
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+}
+.parent #child1 textarea{
+    width: 400px;
+    height: 150px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#btn button{
+    cursor: pointer;
+}
+.parent2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parent2 #child2{
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.parent2 #child2 button{
+    width: 45px;
+    height: 60px;
+    cursor: pointer;
+}
+.parent2 #child3{
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.parent2 #child3 button{
+    width: 45px;
+    height: 60px;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
